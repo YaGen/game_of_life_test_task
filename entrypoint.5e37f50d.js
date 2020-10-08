@@ -37,4 +37,4 @@ var A,e=arguments[3];function t(A){return(t="function"==typeof Symbol&&"symbol"=
 },{"react":"n8MK","./Field":"cjSD","./App.css":"gr2d","./Button":"YunZ","html2canvas":"m6po","~/utils/utils":"ZpDG","./InputFieldBlock":"kuc4"}],"UPqX":[function(require,module,exports) {
 "use strict";var e=u(require("react")),r=require("react-dom"),t=require("~/ui/App");function n(){if("function"!=typeof WeakMap)return null;var e=new WeakMap;return n=function(){return e},e}function u(e){if(e&&e.__esModule)return e;if(null===e||"object"!=typeof e&&"function"!=typeof e)return{default:e};var r=n();if(r&&r.has(e))return r.get(e);var t={},u=Object.defineProperty&&Object.getOwnPropertyDescriptor;for(var o in e)if(Object.prototype.hasOwnProperty.call(e,o)){var i=u?Object.getOwnPropertyDescriptor(e,o):null;i&&(i.get||i.set)?Object.defineProperty(t,o,i):t[o]=e[o]}return t.default=e,r&&r.set(e,t),t}(0,r.render)(e.createElement(t.App,null),document.getElementById("root"));
 },{"react":"n8MK","react-dom":"NKHc","~/ui/App":"g2N2"}]},{},["UPqX"], null)
-//# sourceMappingURL=entrypoint.5e37f50d.js.map
+//# sourceMappingURL=/game_of_life_test_task/entrypoint.5e37f50d.js.map
