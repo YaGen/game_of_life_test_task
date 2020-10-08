@@ -6,8 +6,9 @@
   "homepage": "http://YaGen.github.io/game_of_life_test_task",
   "scripts": {
     "start": "parcel src/index.html --open",
-    "build": "parcel build src/index.html --public-url ./",
-    "predeploy": "npm run build",
+    "build": "parcel build src/index.html",
+    "build:gh-pages": "parcel build src/index.html --public-url /game_of_life_test_task/",
+    "predeploy": "npm run build:gh-pages",
     "deploy": "gh-pages -d dist"
   },
   "keywords": [],
